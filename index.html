@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	
-	<title>Dynamic Datepicker 🗓️</title>
+	<title>Datepicker 🗓️</title>
 </head>
 <body>
 	<div class="datepicker">
-		<input type="text" placeholder="Select Date" readonly>
+		<input id="date-input" type="text" placeholder="Select Date" readonly>
 		
 		
 		<div class="calendar" hidden>
@@ -18,7 +18,7 @@
 				
 				<div class="controls">
 					<button class="prev"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#D16D6A"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg></button>
-					<strong class="label">Month YYYY</strong>
+					<strong class="label"></strong>
 				</div>
 				
 				<div class="days">
@@ -31,58 +31,14 @@
 					<span>S</span>
 				</div>
 				
-				<div class="dates">
-					<span class="disabled">1</span>
-					<span class="disabled">2</span>
-					<span class="disabled">3</span>
-					<span class="disabled">4</span>
-					<span class="disabled">5</span>
-					<span>6</span>
-					<span>7</span>
-					<span>8</span>
-					<span>9</span>
-					<span>10</span>
-					<span>11</span>
-					<span>12</span>
-					<span>13</span>
-					<span>14</span>
-					<span>15</span>
-					<span>16</span>
-					<span>17</span>
-					<span>18</span>
-					<span>19</span>
-					<span>20</span>
-					<span>21</span>
-					<span>22</span>
-					<span>23</span>
-					<span class="today">24</span>
-					<span>25</span>
-					<span>26</span>
-					<span>27</span>
-					<span>28</span>
-					<span>29</span>
-					<span>30</span>
-					<span>31</span>
-					<span>32</span>
-					<span>33</span>
-					<span>34</span>
-					<span class="disabled">35</span>
-					<span class="disabled">36</span>
-					<span class="disabled">37</span>
-					<span class="disabled">38</span>
-					<span class="disabled">39</span>
-					<span class="disabled">40</span>
-					<span class="disabled">41</span>
-					<span class="disabled">42</span>
-				
-				</div>
+				<div class="dates"></div>
 			</div>
 			
 			<div class="right-side">
 				
 				<div class="controls">
 					<button class="next"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#D16D6A"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></button>
-					<strong class="label">Month YYYY</strong>
+					<strong class="label"></strong>
 				</div>
 				
 				<div class="days">
@@ -95,55 +51,11 @@
 					<span>S</span>
 				</div>
 				
-				<div class="dates">
-					<span class="disabled">1</span>
-					<span class="disabled">2</span>
-					<span class="disabled">3</span>
-					<span class="disabled">4</span>
-					<span class="disabled">5</span>
-					<span>6</span>
-					<span>7</span>
-					<span>8</span>
-					<span>9</span>
-					<span>10</span>
-					<span>11</span>
-					<span class="range-start">12</span>
-					<span class="in-range">13</span>
-					<span class="in-range">14</span>
-					<span class="in-range">15</span>
-					<span class="in-range">16</span>
-					<span class="in-range">17</span>
-					<span class="in-range">18</span>
-					<span class="in-range">19</span>
-					<span class="in-range">20</span>
-					<span class="in-range">21</span>
-					<span class="in-range">22</span>
-					<span class="range-end">23</span>
-					<span>24</span>
-					<span>25</span>
-					<span>26</span>
-					<span>27</span>
-					<span>28</span>
-					<span>29</span>
-					<span>30</span>
-					<span>31</span>
-					<span>32</span>
-					<span>33</span>
-					<span>34</span>
-					<span class="disabled">35</span>
-					<span class="disabled">36</span>
-					<span class="disabled">37</span>
-					<span class="disabled">38</span>
-					<span class="disabled">39</span>
-					<span class="disabled">40</span>
-					<span class="disabled">41</span>
-					<span class="disabled">42</span>
-				
-				</div>
+				<div class="dates"></div>
 			</div>
 			
 			<div class="action-menu">
-				<span class="selection">DD.MM.YYYY - DD.MM.YYYY</span>
+				<span class="selection"></span>
 				
 				<button class="cancel">Cancel</button>
 				<button class="apply">Apply</button>

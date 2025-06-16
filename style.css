@@ -73,10 +73,10 @@ body {
 	font-size: .85rem;
 }
 
-.calendar :not[hidden] {
+.calendar:not([hidden]) {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 0.5rem;
+	gap: 1.5rem;
 }
 
 .controls {
@@ -125,7 +125,7 @@ body {
 	justify-content: center;
 	cursor: pointer;
 	border-radius: 4px;
-	color: slategray;
+	color: darkslategrey;
 }
 
 .dates span:hover {
@@ -134,7 +134,7 @@ body {
 }
 
 .dates span.disabled {
-	color: rgba(112, 128, 144, 0.25);
+	color: rgba(112, 128, 144, 0.4);
 	pointer-events: none;
 }
 
